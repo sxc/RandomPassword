@@ -11,6 +11,9 @@
 		F853B5811AF9B1DB00EC4E85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F853B5801AF9B1DB00EC4E85 /* Images.xcassets */; };
 		F853B5841AF9B1DB00EC4E85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F853B5821AF9B1DB00EC4E85 /* MainMenu.xib */; };
 		F853B5901AF9B1DB00EC4E85 /* RandomPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F853B58F1AF9B1DB00EC4E85 /* RandomPasswordTests.swift */; };
+		F853B59B1AF9B2C000EC4E85 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F853B5991AF9B2C000EC4E85 /* MainWindowController.swift */; };
+		F853B59C1AF9B2C000EC4E85 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F853B59A1AF9B2C000EC4E85 /* MainWindowController.xib */; };
+		F853B59E1AF9BFE000EC4E85 /* GeneratePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F853B59D1AF9BFE000EC4E85 /* GeneratePassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,9 @@
 		F853B5891AF9B1DB00EC4E85 /* RandomPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F853B58E1AF9B1DB00EC4E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F853B58F1AF9B1DB00EC4E85 /* RandomPasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPasswordTests.swift; sourceTree = "<group>"; };
+		F853B5991AF9B2C000EC4E85 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = ../MainWindowController.swift; sourceTree = "<group>"; };
+		F853B59A1AF9B2C000EC4E85 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindowController.xib; path = ../MainWindowController.xib; sourceTree = "<group>"; };
+		F853B59D1AF9BFE000EC4E85 /* GeneratePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +79,13 @@
 		F853B57B1AF9B1DB00EC4E85 /* RandomPassword */ = {
 			isa = PBXGroup;
 			children = (
+				F853B5991AF9B2C000EC4E85 /* MainWindowController.swift */,
+				F853B59A1AF9B2C000EC4E85 /* MainWindowController.xib */,
 				F853B57E1AF9B1DB00EC4E85 /* AppDelegate.swift */,
 				F853B5801AF9B1DB00EC4E85 /* Images.xcassets */,
 				F853B5821AF9B1DB00EC4E85 /* MainMenu.xib */,
 				F853B57C1AF9B1DB00EC4E85 /* Supporting Files */,
+				F853B59D1AF9BFE000EC4E85 /* GeneratePassword.swift */,
 			);
 			path = RandomPassword;
 			sourceTree = "<group>";
@@ -187,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F853B5811AF9B1DB00EC4E85 /* Images.xcassets in Resources */,
+				F853B59C1AF9B2C000EC4E85 /* MainWindowController.xib in Resources */,
 				F853B5841AF9B1DB00EC4E85 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F853B59B1AF9B2C000EC4E85 /* MainWindowController.swift in Sources */,
+				F853B59E1AF9BFE000EC4E85 /* GeneratePassword.swift in Sources */,
 				F853B57F1AF9B1DB00EC4E85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
